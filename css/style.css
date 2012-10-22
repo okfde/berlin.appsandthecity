@@ -145,13 +145,7 @@ a > h4:hover {
 
 .date {
   background-color: #000;
-}
-
-.date:hover {
-  background-color: #fff;
-  outline: 1px solid black;
-  color: #000;
-  text-decoration: none;
+   color: #fff;
 }
 
 .social-media {
@@ -241,6 +235,18 @@ section {
 
 .full-width {
   display: block;
+}
+
+.no-border .thumbnail {
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.no-border .thumbnail:hover {
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 #aatc-facts .thumbnail {
