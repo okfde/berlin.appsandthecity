@@ -71,7 +71,7 @@ body {
   clear: both;
   width: 980px;
   margin: 0 auto;
-  background: transparent url(../img/background.png) top repeat-y;
+  background: transparent url(../img/background.png) -3px top repeat-y;
 }
 
 p {
