@@ -111,6 +111,12 @@ ul {
   line-height: 12px;
 }
 
+#location-header {
+  position: absolute;
+  right:0;
+  bottom:0;
+}
+
 h3 {
   font-family: 'CPMono_v07Light', sans-serif;
   background: #000;
