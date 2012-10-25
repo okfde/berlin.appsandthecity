@@ -79,6 +79,10 @@ p {
   font-family: 'CPMono_v07Plain', sans-serif;
 }
 
+ul {
+  list-style-image: url("../img/bullet.png");
+}
+
 #header {
   position: relative;
   width: 940px;
