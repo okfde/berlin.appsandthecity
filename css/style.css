@@ -65,6 +65,7 @@
 body {
   background: #efefef url(../img/kreuz-muster_100x100.png) repeat;
   font-family: 'CPMono_v07Plain', sans-serif;
+  color: #000;
 }
 
 #wrapper {
