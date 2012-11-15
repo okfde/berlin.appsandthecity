@@ -62,7 +62,9 @@
 
 }
 
-
+html {
+  background: url(../img/kreuz-muster_100x100.png) repeat;
+}
 
 body {
   background: #efefef url(../img/background2.png) center top repeat-x;
