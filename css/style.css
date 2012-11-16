@@ -65,9 +65,9 @@
 
 
 body {
-  background: #efefef url(../img/background2.png) center top repeat-x;
+  background: #efefef url(../img/background2.png) center top;
   font-family: 'CPMono_v07Light', sans-serif;
-  color: #000;
+  color: #000;z-index: -999;
 }
 
 
