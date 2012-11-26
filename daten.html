@@ -4,16 +4,18 @@ title: Willkommen
 ---
 
 <div class="row border-row" id="ueber-uns">
-  <div class="span6">
-    <p>API:
+  <div class="span12">
+    <p><b>API:</b>
  
 Das Testsystem befindet sich unter folgender URL:
 http://demo.hafas.de/bin/pub/vbb-fahrinfo/relaunch2011/extxml.exe/
- 
+</p>
+<p>
 Die API (das extxml.exe) soll per XML auf dem Testsystem anfragen. Eine eigene Installation muss somit nicht an den Start gebracht werden.
 Die Anfrage wird von einem WEB-Server entgegen genommen und an das entsprechende CGI-Programm (hier das extxml.exe) weitergereicht. Dieses parst die Anfrage und reicht sie an den Auskunftsserver weiter. Dieser bearbeitet die Anfrage und schickt das Ergebnis an das anfragende CGI-Programm zurück (hier das extxml.exe). Dieses filtert in Abhängigkeit der erlaubten Funktionen das was vom Server zurück kommt und schickt die Antwort an den anfragenden Client.
- 
-Die xsd (Schnittstellenbeschreibung) ist unter folgender URL erreichbar:
+</p>
+<p><b>
+Die xsd (Schnittstellenbeschreibung) ist unter folgender URL erreichbar:</b>
 
 http://demo.hafas.de/xml/vbb/se/hafasXMLInterface.xsd
  
