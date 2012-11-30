@@ -12,6 +12,6 @@ Folgenden Link in die Bookmark-Bar ziehen: <a href="javascript:(function(){docum
 
 Dann [VBB-Auskunft durchführen](http://fahrinfo.vbb.de/)
 
-Bookmarklet klicken, URL kopieren und weitergeben
+Um das Ergebnis per Link zu verteilen: PermaPlan-Bookmarklet klicken, dann "Permalinks" neben den Fahrten klicken oder direkt die neue URL aus der Adresszeile kopieren.
 
 [GitHub-Repo](https://github.com/westberliner/vbb_permalink)
