@@ -14,3 +14,4 @@ To be done:
 
 * Better A* representation
 * Special graph weights for road crossing, stairs, escalators and elevators
+* See if using a cartesian grid search (instead of a graph search) using the GPS coordinates is easier and yields more accuracy
