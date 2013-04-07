@@ -7,8 +7,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>Apps and the City - </title>
-  <meta name="description" content="">
+  <title>{% if page.title %} {{ page.title }} | {% endif %}Apps and the City</title>
+  <meta name="description" content="{% if page.desc %} {{ page.desc }} {% endif %}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -25,7 +25,7 @@
   var map;
 var supermarkt = new google.maps.LatLng(52.540403, 13.394625);
 
-function initialize() {	
+function initialize() {
 
   var stylez = [
     { "featureType": "road.arterial", "elementType": "geometry.stroke", "stylers": [ { "color": "#b4b4b4" } ] },{ "featureType": "road.arterial", "elementType": "geometry.fill", "stylers": [ { "color": "#ffffff" } ] },{ "featureType": "road.arterial", "elementType": "labels.text.stroke", "stylers": [ { "weight": 0 }, { "color": "#808080" }, { "visibility": "off" } ] },{ "featureType": "road.arterial", "elementType": "labels.text.fill", "stylers": [ { "color": "#636363" } ] },{ "featureType": "poi.park", "elementType": "geometry.fill", "stylers": [ { "color": "#d8e3dd" } ] },{ "featureType": "poi.attraction", "stylers": [ { "color": "#808080" }, { "visibility": "off" } ] },{ "featureType": "poi.sports_complex", "stylers": [ { "color": "#808080" }, { "visibility": "off" } ] }
@@ -43,13 +43,13 @@ function initialize() {
   };
   firstmap = new google.maps.Map(document.getElementById("map_canvas"),
       mapOptions);
-	  
+
 	var point = new google.maps.LatLng (52.540403, 13.394625);
 	var marker = new google.maps.Marker ({
 		position: point,
 		title: 'SUPERMARKT - Apps & the City',
 		map: firstmap,
-      icon: 'img/google_marker.png'  
+      icon: 'img/google_marker.png'
 		})
 
   var styledMapOptions = {
@@ -122,32 +122,32 @@ function initialize() {
         </div>
         <div class="row border-row">
           <div class="span12" style="padding-top:13px; padding-bottom:15px;">
-            
+
                 <a href="http://www.vbb.de/">
                   <img src="/img/logo_01_vbb.png" alt="VBB" style="margin-left:28px;">
                 </a>
-              
+
                 <a href="http://www.berlin.de/projektzukunft/">
                   <img src="/img/logo_02_projekt-zukunft-berlin.png" alt="Projekt Zukunft" style="margin-left:28px;">
                 </a>
-              
+
                 <a href="https://www.berlinonline.de/">
                   <img src="/img/logo_03_berlinonline.png" alt="Berlin Online" style="margin-left:28px;">
                 </a>
-              
+
                 <a href="http://www.fh-potsdam.de/">
                   <img src="/img/logo_04_fhp.png" alt="FH Potsdam" style="margin-left:28px;">
                 </a>
-            
-             
+
+
                 <a href="http://www.okfn.de/">
                   <img src="/img/logo_05_okf.png" alt="Open Knowledge Foundation Deutschland" style="margin-left:28px;">
                 </a>
-            
-          
-              
-              
-              
+
+
+
+
+
             <ul id="footer-menu">
               <li>
                 <a href="mailto:julia.kloiber@okfn.org">Kontakt</a>
