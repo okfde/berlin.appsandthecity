@@ -1,2 +1,22 @@
 markdown: rdiscount
 pygments: true
+
+# Template Settings
+title: 'Apps and the City Berlin'
+location: '<a href="http://www.supermarkt-berlin.net/">Supermarkt Berlin</a>'
+date: '29. November 2012'
+
+# Navigation
+navigation:
+- text: 'Beispiele'
+  url: '/#beispiele'
+- text: 'Entwicklertag'
+  url: '/#entwicklertag'
+- text: 'Argumente'
+  url: '/#argumente'
+- text: 'Daten'
+  url: '/daten'
+- text: 'Apps'
+  url: '/apps'
+- text: 'Media'
+  url: '/media'

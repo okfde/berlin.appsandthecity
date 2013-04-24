@@ -1,3 +1,7 @@
+/*
+* Add your custom js code here.
+*/
+
 var map;
 var supermarkt = new google.maps.LatLng(52.540403, 13.394625);
 
