@@ -8,6 +8,8 @@ location:
   url: 'http://www.supermarkt-berlin.net/'
 date: '29. November 2012'
 github: 'https://github.com/okfde/berlin.appsandthecity'
+contact: 'julia.kloiber@okfn.org'
+mailinglist: 'http://lists.okfn.org/mailman/listinfo/open-data-nahverkehr'
 
 # Navigation
 navigation:
