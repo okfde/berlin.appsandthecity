@@ -3,8 +3,11 @@ pygments: true
 
 # Template Settings
 title: 'Apps and the City Berlin'
-location: '<a href="http://www.supermarkt-berlin.net/">Supermarkt Berlin</a>'
+location:
+- text: 'Supermarkt Berlin'
+  url: 'http://www.supermarkt-berlin.net/'
 date: '29. November 2012'
+github: 'https://github.com/okfde/berlin.appsandthecity'
 
 # Navigation
 navigation:
